@@ -9,7 +9,7 @@ main() {
   }
   var c = a + b;
   for (var i = 0; i < c; i++) {
-    if (i.isEven) {
+    if (i.isOdd) {
       print(i);
     }
   }
